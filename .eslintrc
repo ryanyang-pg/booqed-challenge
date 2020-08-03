@@ -1,0 +1,49 @@
+root: true
+extends:
+  - eslint:recommended
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+env:
+  es6: true
+  node: true
+  browser: true
+  commonjs: true
+globals:
+  __commonPath: true
+  __modulePath: true
+rules:
+  no-empty: warn
+  no-console: 0
+  no-useless-escape: off
+  no-unused-vars: error
+  no-multi-str: off
+  operator-linebreak: [error, "after"]
+  array-callback-return: error
+  arrow-parens: [error, always]
+  brace-style: [error, 1tbs, { allowSingleLine: true }]
+  comma-dangle: [error, always-multiline]
+  eqeqeq: [error, always, { null: ignore }]
+  guard-for-in: error
+  key-spacing: error
+  keyword-spacing: error
+  linebreak-style: [error, unix]
+  padding-line-between-statements: [error, { blankLine: "always", prev: "*", next: "return" }]
+  no-else-return: error
+  no-multiple-empty-lines: [error, { max: 1 }]
+  no-var: error
+  object-curly-spacing: [error, always]
+  one-var: [error, never]
+  one-var-declaration-per-line: [error, always]
+  prefer-arrow-callback: error
+  quote-props:
+    - error
+    - as-needed
+    - keywords: false
+      unnecessary: true
+      numbers: false
+  quotes: [error, single, { avoidEscape: true }]
+  semi: error
+  space-in-parens: [error, never]
+  import/no-unresolved: [error, { commonjs: true, caseSensitive: true }]
+  no-loop-func: 0
