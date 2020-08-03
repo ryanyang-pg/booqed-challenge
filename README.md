@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This challenge is accessible by this [link](https://booqed-challenge.herokuapp.com/).
 
 ## Design Choices
 

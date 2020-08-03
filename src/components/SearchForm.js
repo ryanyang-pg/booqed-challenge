@@ -43,7 +43,7 @@ class SearchForm extends React.Component {
 
     return (
       <div className={classes.paper}>
-        <img src={logo} alt="Logo" className={classes.logo} />
+        <a href="/"><img src={logo} alt="Logo" className={classes.logo} /></a>
         <Typography component="h1" variant="h5">
           Search Github Repositories
                 </Typography>
